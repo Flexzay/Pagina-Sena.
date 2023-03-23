@@ -2,7 +2,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
 
+}
 
 body{
     margin: 0;
@@ -13,7 +16,7 @@ h1{ font-size: 3.5em;}
 h2{ font-size: 2.7em;}
 h3{ font-size: 2em;}
 p{ font-size: 1.2em;}
-*/
+
 
 button{
     font-size:  1.3em; 
@@ -23,7 +26,7 @@ button{
     border: solid 2px rgb(36, 32, 32);
     box-shadow: 2px 2px 10px rgb(36, 32, 32);
     color: white;
-    background-color: #6CB52B;
+    background-color: #00AF00;
 }
  
 button:hover{
@@ -36,11 +39,11 @@ button:hover{
 }
 
 .color-acento{
-    color: #6CB52B;
+    color: #00AF00;
 }
 
 header{
-     background-color: #6CB52B;
+     background-color: #00AF00;
 }
 
 header .logo{
@@ -123,7 +126,7 @@ p{
 }
 
 footer{
-    background-color: #6CB52B;
+    background-color: #00AF00;
     height: 40px;
     width: 100%;
     display: flex;
@@ -150,7 +153,7 @@ footer{
     }
 
     #sobre-nosotros .img-container{
-        background-image:url(media/somos-sena.jpg);
+        background-image:url(media/rodolfo_martinez_tono_2.jpg);
         background-size: cover;
         background-position: center center;
         width: 50%;
@@ -178,12 +181,11 @@ footer{
     }
 
     #Resumen .img-container{
-        background-image:url(media/resumen1.png);
+        background-image:url(media/resumen.jpg);
         background-size: cover;
         background-position: center center;
         width: 50%;
         height: 400px;
-        transform: rotate(180deg);
     }
 
     #Resumen .container{
@@ -225,9 +227,10 @@ footer{
         width: 60%;
         max-width: 500px;
         display: flex;
-        align-items: center;
+        align-items:center;
         flex-direction: column;
         justify-content: center;
+        
     }
 
     #Proyectos p{
@@ -236,7 +239,6 @@ footer{
 
     footer{
         justify-content: flex-end;
-
 
     }
 
