@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Alkatra', cursive;
+}
+
+h3{ font-size: 2em;}
+p{ font-size: 1.2em;}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: #6CB52B;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;  
+    color: white;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    text-align:center;
+    flex-direction:column;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: #e5ece0;
+}
+
+#Escudo .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(85, 82, 82);
+}
+
+footer {
+    background-color: #6CB52B;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #Escudo .img-container{
+        background-image:url(media/escudo.png);
+        background-size: cover;
+        background-position: center center;
+        width: 50%;
+        height: 400px;
+    }
+
+    #Escudo .container{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    #Escudo .texto{
+        text-align: initial;
+        width: 60%;
+        max-width: 500px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #Escudo p{
+        padding-top: 0;
+    }
+
+    footer {
+        justify-content: flex-end;
+
+    }
+
+
+}
