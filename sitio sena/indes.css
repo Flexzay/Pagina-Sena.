@@ -26,11 +26,11 @@ button{
     border: solid 2px rgb(36, 32, 32);
     box-shadow: 2px 2px 10px rgb(36, 32, 32);
     color: white;
-    background-color: #00AF00;
+    background-color: #39a900;
 }
  
 button:hover{
-    background-color: #5a9924;
+    background-color: #5ed323bb;
 }
 
 .container{
@@ -43,7 +43,7 @@ button:hover{
 }
 
 header{
-     background-color: #00AF00;
+     background-color: #39a900;
 }
 
 header .logo{
@@ -126,7 +126,7 @@ p{
 }
 
 footer{
-    background-color: #00AF00;
+    background-color: #39a900;
     height: 40px;
     width: 100%;
     display: flex;
@@ -212,8 +212,8 @@ footer{
         background-image:url(media/proyecto.png);
         background-size: cover;
         background-position: center center;
-        width: 50%;
-        height: 400px;
+        width: 500px;
+        height: 600px;
     }
 
     #Proyectos .container{

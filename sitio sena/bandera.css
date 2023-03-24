@@ -17,7 +17,7 @@ p{ font-size: 1.2em;}
 }
 
 header{
-    background-color: #6CB52B;
+    background-color: #39a900;
 }
 
 header .logo{
@@ -64,7 +64,7 @@ p{
 }
 
 footer{
-    background-color: #6CB52B;
+    background-color: #39a900;
     height: 40px;
     width: 100%;
     display: flex;
@@ -122,6 +122,8 @@ footer{
 
     footer{
         justify-content:flex-end;
+        position: absolute;
+        bottom:0%
     }
 
 }
