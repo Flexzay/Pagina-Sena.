@@ -4,18 +4,27 @@
 
 html{
     scroll-behavior: smooth;
-
 }
 
 body{
     margin: 0;
-    font-family: 'roboto';
+
 }
 
-h1{ font-size: 3.5em;}
-h2{ font-size: 2.7em;}
-h3{ font-size: 2em;}
-p{ font-size: 1.2em;}
+h1{ font-size: 3.7em;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;}
+
+h2{ font-size: 2.9em;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;}
+
+h3{ font-size: 2.5em;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;}
+    
+p{ font-size: 1.3em;
+    font-family: 'Gruppo', cursive;}
 
 
 button{
@@ -30,7 +39,7 @@ button{
 }
  
 button:hover{
-    background-color: #5ed323bb;
+    background-color: #3c9211bb;
 }
 
 .container{
@@ -72,6 +81,7 @@ header a{
     text-decoration: none;
     font-weight: bold;
     color: black;
+    font-family: 'Gruppo', cursive;
 }
 
 header a:hover{

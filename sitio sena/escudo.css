@@ -4,11 +4,16 @@
 
 body{
     margin: 0;
-    font-family: 'Alkatra', cursive;
+    
 }
 
-h3{ font-size: 2em;}
-p{ font-size: 1.2em;}
+h3{ font-size: 2.5em;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;}
+    
+p{ font-size: 1.3em;
+    font-family: 'Gruppo', cursive;
+}
 
 .container{
     max-width: 1400px;
@@ -45,6 +50,7 @@ header a{
     text-decoration: none;
     font-weight: bold;
     color: black;
+    font-family: 'Gruppo', cursive;
 }
 
 header a:hover{
