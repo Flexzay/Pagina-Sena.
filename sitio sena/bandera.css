@@ -80,6 +80,7 @@ footer{
 
 
 
+
 @media (min-width: 720px){
     header{
         position: fixed;
@@ -127,8 +128,6 @@ footer{
 
     footer{
         justify-content:flex-end;
-        position: absolute;
-        bottom:0%
     }
 
 }
