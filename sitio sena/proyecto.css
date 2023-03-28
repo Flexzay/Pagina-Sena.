@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+
+}
+
+h1{ font-size: 3.7em;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;}
+
+h2{ font-size: 2.9em;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;}
+
+h3{ font-size: 2.5em;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;}
+    
+p{ font-size: 1.3em;
+    font-family: 'Gruppo', cursive;}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{
+    color: #00AF00;
+}
+
+header{
+     background-color: #39a900;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;  
+    color: white;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    text-align:center;
+    flex-direction:column;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: 'Gruppo', cursive;
+}
+
+header a:hover{
+    color: #e5ece0;
+}
+
+
+#Proyectos .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+
+
+p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(85, 82, 82);
+}
+
+footer{
+    background-color: #39a900;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+}
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #Proyectos .img-container{
+        background-image:url(media/proyecto.png);
+        background-size: cover;
+        background-position: center center;
+        width: 500px;
+        height: 600px;
+    }
+
+    #Proyectos .container{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    #Proyectos .texto{
+        text-align: initial;
+        width: 60%;
+        max-width: 500px;
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #Proyectos p{
+        padding-top: 0;
+    }
+
+    footer{
+        justify-content: flex-end;
+
+    }
+
+
+}
+
