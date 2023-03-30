@@ -97,7 +97,7 @@ footer {
     }
 
     #logo .img-container{
-        background-image:url(media/logo.png);
+        background-image:url(MEDIA/logo.png); /*img sacada de google*/
         background-size: cover;
         background-position: center center;
         width: 50vh;

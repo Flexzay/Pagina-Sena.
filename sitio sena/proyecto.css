@@ -114,7 +114,7 @@ footer{
     }
 
     #Proyectos .img-container{
-        background-image:url(media/proyecto.png);
+        background-image:url(MEDIA/proyecto.png); /*img sacada de pinterest*/
         background-size: cover;
         background-position: center center;
         width: 500px;

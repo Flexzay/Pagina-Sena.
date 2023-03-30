@@ -100,7 +100,7 @@ footer {
     }
 
     #Himno .img-container{
-        background-image:url(media/himno.png);
+        background-image:url(MEDIA/himno.png); /*img sacada de google*/
         background-size: cover;
         background-position: center center;
         width: 400px;

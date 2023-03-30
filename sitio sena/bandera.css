@@ -99,7 +99,7 @@ footer{
     }
 
     #Bandera .img-container{
-        background-image:url(media/bandera.png);
+        background-image:url(MEDIA/bandera.png); /*img sacada de google*/
         background-size: cover;
         background-position: center center;
         width: 350px;

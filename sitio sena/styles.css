@@ -101,7 +101,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(MEDIA/sena-guaviare.jpeg); /*img sacada de goolge*/
+    ,url(MEDIA/sena-guaviare.jpeg); /*img sacada de google*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -163,7 +163,7 @@ footer{
     }
 
     #sobre-nosotros .img-container{
-        background-image:url(MEDIA/rodolfo_martinez_tono_2.jpg); /*img sacada de google*/
+        background-image:url(MEDIA/rodolfo_martinez_tono_2.jpg); /*img sacada de goolge*/
         background-size: cover;
         background-position: center center;
         width: 50%;
