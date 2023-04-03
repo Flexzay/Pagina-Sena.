@@ -67,15 +67,7 @@ p{
     color: rgb(85, 82, 82);
 }
 
-footer {
-    background-color: #39a900;
-    height: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    position: absolute;
-}
+
 
 
 
@@ -124,9 +116,7 @@ footer {
         padding-top: 0;
     }
 
-    footer{
-        justify-content: flex-end;
-    }
+
 
 
 }
